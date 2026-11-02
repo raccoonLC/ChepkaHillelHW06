@@ -1,0 +1,56 @@
+.hdrp {
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+.hdr {
+    display: flex;
+    justify-content: space-between;
+    width: 560px;
+}
+.menu {
+    font-family:"Playfair Display";
+    font-size: 14px;
+    font-weight: 400;
+    color:#7D7D7D;
+
+}
+.menugr {
+    font-family:"Playfair Display";
+    color: #3FAA3F;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    width: 500px;
+}
+
+.btn {
+    font-family:"Playfair Display";
+    size:14px;
+    font-weight: 400;
+    color: #626262;
+    background-color: white;
+    height: 60px;
+    width: 165px;
+
+}
